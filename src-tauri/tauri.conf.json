@@ -60,7 +60,7 @@
       }
     },
     "updater": {
-      "pubkey": "RWQs/XD3VwgVpR1ME/fmHAILiH3yH29teRgYC7maUBMz1v2ctcx5wp4R",
+      "pubkey": "RWQyv97gECwdKeP9WZcgC+5m8RzZ8ogwfh88219OYCZsRgx6Cmodyy2b",
       "endpoints": [
         "https://github.com/yangchaohong/cc-switch-action/releases/latest/download/latest.json"
       ]
