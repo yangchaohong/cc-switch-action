@@ -4,6 +4,15 @@ on:
   push:
     tags:
       - 'v*'
+  workflow_dispatch:
+    inputs:
+      environment:             # 输入参数的名称（可在 steps 中通过 ${{ inputs.environment }} 引用）
+        description: 'abab'   # 参数的描述，显示在手动触发的表单中
+        required: true          # 是否为必填项
+        default: 'release'      # 默认值
+        type: choice            # 参数类型：choice（下拉选择）
+        options:
+         - release
 
 permissions:
   contents: write
