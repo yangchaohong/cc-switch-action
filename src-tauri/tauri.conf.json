@@ -59,5 +59,10 @@
         "schemes": ["ccswitch"]
       }
     }
-  }
+  },
+    "updater": {
+      "pubkey": "RWQs/XD3VwgVpR1ME/fmHAILiH3yH29teRgYC7maUBMz1v2ctcx5wp4R",
+      "endpoints": [
+        "https://github.com/yangchaohong/cc-switch-action/releases/latest/download/latest.json"
+      ]
 }
